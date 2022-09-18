@@ -12,6 +12,7 @@
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.0",
+    "@babel/plugin-transform-runtime": "^7.19.1",
     "@babel/preset-env": "^7.11.0",
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.0.6",
@@ -27,5 +28,7 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "d3": "^7.6.1"
+  }
 }
